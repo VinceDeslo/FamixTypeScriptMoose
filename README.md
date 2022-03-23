@@ -22,3 +22,17 @@ After loading the packaging, you should be able to see it from the System browse
 There is 2 methods :
 - exportNumberOccurencesByFile: generate a csv file with number of decorators for each file
 - exportNumberOccurencesByTypeDecorator : generate a csv file with number of decorators by decorator type
+
+Commands to use in the playground
+decorator := TypeScriptDecorator new.
+
+decorator exportNumberOccurencesByTypeDecorator: path.
+
+decorator exportNumberOccurencesByFile: path.
+
+The path is where you Moose image is located.
+path for mac example :
+path := '/Users/user/Moose8-final'.
+
+path for PC example :
+path := 'C:\Users\user\Pharo\images\Moose8-stable-01'.
