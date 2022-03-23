@@ -24,6 +24,7 @@ There is 2 methods :
 - exportNumberOccurencesByTypeDecorator : generate a csv file with number of decorators by decorator type
 
 Commands to use in the playground
+
 decorator := TypeScriptDecorator new.
 
 decorator exportNumberOccurencesByTypeDecorator: path.
